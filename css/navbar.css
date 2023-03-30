@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    color: white;
+}
+.sublist{
+    padding-left: 40px;
+    font-size: 24px;
+    height: 60px;
+    transition: transform 0.5s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#right{
+    position: absolute;
+    right: 20px;
+}
+.sublist:hover{
+transform: scale(1.2);
+}
+#containerplace{
+    width: 50vw;
+    height: 70vh;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.places{
+    width: 20vw;
+    height: 30vh;
+    background-color: tomato;
+    border: 2px solid black;
+    background-position: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    color: transparent;
+}
+.places:hover{
+    transform: scale(1.2);
+    color: white;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px black;
+}
+#place1{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.333),rgba(0, 0, 0, 0.333)),url(../assets/images/india.webp);
+}
+#place2{
+    background-image:linear-gradient(rgba(128, 128, 128, 0.333),rgba(0, 0, 0, 0.333)), url(../assets/images/italy.jfif);
+}
+#place3{
+    background-image:linear-gradient(rgba(128, 128, 128, 0.333),rgba(0, 0, 0, 0.333)), url(../assets/images/swiz.jfif);
+}
+#place4{
+    background-image:linear-gradient(rgba(128, 128, 128, 0.333),rgba(0, 0, 0, 0.333)), url(../assets/images/dubai.jpg);
+}
+#heading{
+    width: 45vw;
+    height: 80vh;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+#textheading{
+    font-size: 11vw;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 10px;
+}

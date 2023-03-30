@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100vw;
+    height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.564),rgba(0, 0, 0, 0.673)),url(../assets/images/travel\ image.jpg);
+   background-size: 100% 750px;
+   background-repeat: no-repeat;
+}
